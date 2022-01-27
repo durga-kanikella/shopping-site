@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.btn,button{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+.links{
+    text-decoration: none;
+    list-style-type: none; 
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.nav{
+    height: 60px;
+    width: 40%;
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    line-height: 60px;
+}
+.nav li{
+    width: 16.66%;
+    text-align: center;
+}
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 450;
+    color: black;
+    transition: .1s;
+}
+.active-link{
+    border-bottom: 2px solid maroon;
+}
+.nav a:hover{
+   
+    border-bottom: 2px solid maroon;  
+}
+.login{
+    height: 60px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+   
+}
+.login button{
+    background-color:transparent;
+    line-height: 60px;
+    cursor: pointer;
+}
+.login i{
+    line-height: 60px;
+    cursor: pointer;
+}
+.flex-container{
+    margin-top: 10px;
+}
+.flex-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-box-1{
+    width: 50%;
+}
+.flex-item-11{
+    height: 600px;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2013/03/27/12/21/woman-97088__480.jpg");
+    background-size: cover;
+    color: white;
+}
+.flex-item-11-content{
+    width: 60%;
+   margin-left:40px;
+   padding-top: 230px;
+   line-height: 30px;
+   
+}
+.flex-item-content{
+    width: 80%;
+   margin-left:20px;
+   padding-top: 100px;
+   font-size: 13px;
+   line-height: 20px; 
+}
+.flex-item-content a,.flex-item-11-content a{
+   color: white;
+}
+.flex-box-2{
+    height: 600px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+}
+.flex-item-21{
+    height:50%;
+    margin-bottom: 10px;
+    background-image: url("https://th.bing.com/th/id/OIP.JwUqnW8PLLr9sw6mYkppLgHaLF?pid=ImgDet&rs=1");
+    color: white;
+  background-size: cover;
+}
+.flex-item-22{
+    height:50%;
+   background-image: url("https://cdn.pixabay.com/photo/2018/01/14/00/05/glass-3081015__480.jpg");
+    color: white;
+  background-size: cover;
+}
+
+.flex-box-3{
+    height: 600px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+}
+.flex-item-31{
+    height:50%;
+    margin-bottom: 10px;
+    background-image: url("https://th.bing.com/th/id/OIP.UWgQEURaffv8jTeOYw5MMAHaJ1?pid=ImgDet&w=178&h=236&c=7&dpr=1.5");
+    color: white;
+  background-size: cover;
+  background-position: top;
+}
+.flex-item-32{
+    height: 50%;
+    background-image: url("https://i.pinimg.com/originals/ca/a0/ac/caa0ac4f7779e3bcb519c79618bdf53a.png");
+    color: white;
+  background-size: cover;
+}
+
+
+/* sub-navigation */
+
+.sub-navigation{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;  
+}
+.header{
+    width: 40%; 
+    line-height: 60px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.header span{
+    border-bottom: 2px solid maroon;
+}
+.sub-nav{
+    width: 50%;
+}
+.sub-nav ul{
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px; 
+}
+.sub-nav li{
+    width: 18%;
+    text-align: center;
+    list-style: none; 
+}
+.sub-nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 450;
+    color: black;
+    cursor: pointer;  
+}
+
+/* products */
+
+
+.products{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;   
+    
+}
+.product-list-box-1{
+    display: flex;
+    justify-content: space-between;
+}
+.product-list-box{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    height: 480px;
+    margin-bottom: 20px;
+}
+.product-list{
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-list-content{
+    width:100% ; 
+    height: 25%;
+    text-align: center;
+    padding:30px 0px;
+    text-transform: capitalize;
+}
+.product-list-11{
+   background-image: url("https://th.bing.com/th/id/OIP.B-0UMsL7OuTZirsyVEWsrwHaLW?w=200&h=307&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+}
+ .product-list-12{  
+   background-image: url("https://th.bing.com/th/id/OIP.owr30ebncUcDZtnTBJD65QHaJQ?w=200&h=250&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+}
+.product-list-13{
+   background-image: url("https://th.bing.com/th/id/OIP.xYpbKkFYDCU-kxn6QjKyOwHaL2?w=197&h=316&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+}
+.product-list-14{
+   background-image: url("https://th.bing.com/th/id/OIP.UI46nImTaOGYW1s3_TePQgHaJc?w=172&h=220&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+}
+.product-list-21{
+   background-image: url("https://th.bing.com/th/id/OIP.KXj9GX4QSS5POhRKAwi84gHaKW?w=200&h=280&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+}
+.product-list-22{   
+   background-image: url("https://th.bing.com/th/id/OIP.dEEt21C0S9fL4-K2kVSeGwHaJ4?w=200&h=267&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+}
+.product-list-23{ 
+   background-image: url("https://th.bing.com/th/id/OIP.zmJoAK5vHvEoRztLMezQSgHaLH?w=200&h=300&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+}
+.product-list-24{  
+   background-image: url("https://th.bing.com/th/id/OIP.mylp5tnPlAMzNoKoC7087AHaJ4?w=200&h=267&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+} 
+/* slider-container */
+.slider-container{
+    width: 100%;
+    height: 550px;
+    background-color: blueviolet;
+    margin: 20px 0px;
+}
+.mini-products-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.mini-products{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+}
+.mini-product{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 40px;  
+}
+.mini-header{
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 70px;  
+}
+.mini-header h1{
+    border-bottom: 2px solid maroon;
+}
+.mini-product-img{
+    background-image:url("") ;
+    background-size: cover;
+    width: 35%;
+    height: 120px; 
+}
+.mini-product-content{  
+    width: 65%;
+    height: 120px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.mini-product-img-11{
+    background-image: url("https://th.bing.com/th/id/OIP.jzN1lGMjAjFksdWeu9T-TwHaJd?w=172&h=220&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-size: cover;
+}
+.mini-product-img-12{
+    background-image: url("https://th.bing.com/th/id/OIP.9oG5FlFjAdh8GwcoGJbl8gHaJ4?w=154&h=206&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-size: cover;
+    background-position: center;
+}
+.mini-product-img-13{
+    background-image: url("https://th.bing.com/th/id/OIP.6UDApKoBTU_bbJH_asK5WAAAAA?pid=ImgDet&w=415&h=519&rs=1");
+    background-size: cover;
+}
+.mini-product-img-21{
+    background-image: url("https://th.bing.com/th/id/OIP.fweOpBLp_jJ6ILvSJqFWmQHaI4?pid=ImgDet&w=635&h=762&rs=1");
+    background-size: cover;
+}
+.mini-product-img-22{
+    background-image: url("https://th.bing.com/th/id/OIP.1iy6igkWrFHIhwzm5Ega3gHaJ4?pid=ImgDet&rs=1");
+    background-position: center;
+    background-size: cover;
+}
+.mini-product-img-23{
+    background-image: url("https://th.bing.com/th/id/R.80cdde8edc1ff8a9967208526e759511?rik=dwlVJUyDb%2b8wBQ&riu=http%3a%2f%2fimages.getluxury.su%2fgetluxurybag%2fReplica-Michael-Kors-Delaney-Medium-Leather-Round-Crossbody-Bag-Dark-Brown.jpg&ehk=%2bxkBBlkhsIgcHTJU4%2b5fTWVGzIra20bDSuzErTvNFzQ%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+}
+.mini-product-img-31{
+    background-image: url("https://i.pinimg.com/originals/3f/f3/6a/3ff36a85cfab42720bd7ac7fb80bb7ae.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.mini-product-img-32{
+    background-image: url("https://th.bing.com/th/id/OIP.TEfOclSpHdbA--ZRhVxmCQAAAA?pid=ImgDet&w=287&h=300&rs=1");
+    background-size: cover;
+    background-position: center;
+}
+.mini-product-img-33{
+    background-image: url("https://th.bing.com/th/id/OIP.n-pKmPjTdZgiw21GzLTsSAHaHa?pid=ImgDet&w=580&h=580&rs=1");
+    background-size: cover;
+    background-position: center;
+}
+/* timer-container */
+.timer-container{
+    
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.timer-img{
+width: 50%;
+height: 400px;
+
+}
+.timer-img-1{
+    background-image: url("https://th.bing.com/th/id/R.68e38de9ad266ff078b28bd20088afc8?rik=4ZXvEghrdWrkJQ&riu=http%3a%2f%2fwallpaperxyz.com%2fwp-content%2fuploads%2fCute-And-Beautiful-Asian-Girls-Wallpapers-Full-HD-Free-Download-Wallpaperxyz.com-29.jpg&ehk=x%2b6A%2f8z75dOSRLmsCGJJPpRu4P%2fArtU97tfRuN3RFcM%3d&risl=&pid=ImgRaw&r=0");
+background-size: cover;
+
+}
+.timer-img-2{
+    background-color: hsl(0,0%,95%);
+}
+.discount{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 200px;
+    padding-top: 20px;
+    line-height: 40px;
+   
+    
+}
+.discount h2{
+   position: relative;
+   font-size: 40px;
+   right: 50px;
+   color: rgb(201, 61, 61);
+   width: 300px;
+   font-family: Birthstone;
+}
+.discount p{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.discount p span{
+    color: rgb(201, 61, 61);
+    font-weight: bold;
+    font-size: 20px;
+}
+#timer{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    padding-left: 140px;
+    margin-top: 30px;
+    text-align: center;
+}
+#timer p{
+    font-size: 16px;
+}
+.timer-img button{
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(201, 61, 61);
+    margin:20px 250px;
+    width: 100px;
+    font-weight: 700;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+/* feature-container */
+.features-container{
+    width: 90%;
+    height: 100px;
+ 
+    margin: auto;
+    margin-bottom: 60px;
+    display: flex;  
+}
+.feature-box{
+    width: 25%;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between; 
+}
+.feature-logo{
+    width: 30%;
+    height: 100px;
+    padding-left: 50px;
+    
+}
+.feature-logo i{
+    line-height: 100px;
+    color: rgb(185, 5, 5);
+   
+}
+.feature-content{
+    width: 70%;
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.feature-content h1 {
+     font-size: 15px;
+}
+.feature-content p{
+    font-size: 14px;
+}
+/* show-container */
+.show-container{
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+margin-bottom: 30px;
+}
+.show-product{
+    width: 16%;
+    height: 300px;
+}
+.show-product-1{
+    background-image: url("https://2.bp.blogspot.com/-_6nj9D3UovM/UcLNDA8b7BI/AAAAAAAAFkQ/xLN_o-YRt2E/s1600/clothes.jpg");
+    background-size: cover;
+}
+.show-product-2{
+    background-image: url("https://gloimg.zafcdn.com/zaful/pdm-product-pic/Clothing/2016/05/14/goods-first-img/20160514101057_76685.jpg");
+    background-size: cover;
+}
+.show-product-3{
+    background-image: url("https://th.bing.com/th/id/R.41487a9cf5a9d82bca044838a066f325?rik=p6I3FybclWUC4Q&riu=http%3a%2f%2f1.bp.blogspot.com%2f-HMiZznqL0zo%2fTbJAqjj9WYI%2fAAAAAAAAMsE%2f8xLIALS6fRk%2fs1600%2fLindsay%2bEllingson%2b%252528H%252526M%2bSS%2b2011%252529%2bHQ%252521%2b%2525284%252529.jpg&ehk=xr%2fRJmLKxTPNztUEMoMgW7798vjGaWJobUTwRPdCRLY%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+.show-product-4{
+    background-image: url("https://i.pinimg.com/originals/8a/70/e0/8a70e053b3eb55ae3788fde380040cb6.jpg");
+    background-size: cover;
+}
+.show-product-5{
+    background-image: url("https://th.bing.com/th/id/R.e77e4202d95d90f318077bb89d91a255?rik=nt%2fboO4fVVZ3ig&riu=http%3a%2f%2fwww.dhresource.com%2falbu_313460360_00-1.0x0%2fsummer-european-new-women-s-fashion-wrap.jpg&ehk=I5uhIFl9NMAAjp3CdOD0HF2lk5KMKZK5Sj%2bstyyCS8I%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+.show-product-6{
+    background-image: url("https://th.bing.com/th/id/OIP.pDsw8VdFywnV9mYGUuKukwAAAA?pid=ImgDet&w=427&h=640&rs=1");
+    background-size: cover;
+}
+    
+/* details-container */
+.details-container{
+    width: 90%;
+    
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.detail-box{
+    padding-top: 30px;
+width: 20%;
+height: 280px;
+
+
+}
+.detail-box h1{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.detail-box-mod{
+    width: 30%;
+    height: 280px;
+}  
+.detail-box a{
+    line-height: 30px;
+    color: grey;  
+    
+}
+.detail-email{
+    border: 1px solid rgb(209, 207, 207);
+    text-align: center;
+    padding: 2px;
+    border-radius: 30px;
+    display:flex;
+    justify-content:space-between ;
+    margin-top: 20px;  
+}
+.detail-email input{
+    outline: none;
+   width: 55%;
+   margin-left: 12px;
+   border: none;
+   padding: 12px;
+   font-size: 15px;
+}
+.detail-email button{
+background-color: hsl(0,81%,43%);
+border-radius: 30px;
+width: 45%;
+color: white;
+text-transform: uppercase;
+font-weight: 700;
+cursor: pointer;
+border: none;
+padding: 12px;
+}
+.detail-icons{
+    padding-top: 30px;
+}
+.detail-icons i{
+    background-color: rgb(223, 221, 221);
+    border-radius: 50%;
+    padding: 13px;
+    margin-right: 10px;  
+    cursor: pointer; 
+}
+
+/* footer */
+footer p{
+    text-align: center;
+    margin: 20px 0px;
+}
